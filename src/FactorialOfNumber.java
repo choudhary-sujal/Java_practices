@@ -1,7 +1,14 @@
 public class FactorialOfNumber {
     public static void main(String[] args){
 
-        int num =5;
+        int n = 8;
+        int factorial = 1;
+
+        for (int i = 1; i <= n; i++) {
+            factorial = factorial * i;
+        }
+
+        System.out.println("FactorialOfNumber: " + factorial);
 
     }
 }
